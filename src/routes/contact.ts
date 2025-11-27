@@ -337,7 +337,7 @@ Origen: Formulario de contacto (www.blank.com.mx)
       console.log("📧 Enviando correo (Resend) a:", { to, cc });
 
       const sendResult = await resend.emails.send({
-        from: "BLANK · Formulario Web <onboarding@resend.dev>", // luego cámbialo por tu dominio verificado
+        from: "BLANK · Formulario Web <info@blank.com.mx>", // luego cámbialo por tu dominio verificado
         to: [to],
         cc: cc ? [cc] : undefined,
         reply_to: email, // así puedes responder directo al cliente

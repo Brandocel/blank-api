@@ -395,7 +395,7 @@ Tamaño:  ${(file.size / 1024 / 1024).toFixed(2)} MB
       console.log("📧 Enviando correo Careers (Resend) a:", { to, cc });
 
       const sendResult = await resend.emails.send({
-        from: "BLANK · Careers <onboarding@resend.dev>", // cámbialo por tu dominio verificado cuando lo tengas
+        from: "BLANK · Careers <info@blank.com.mx>", // cámbialo por tu dominio verificado cuando lo tengas
         to: [to],
         cc: cc ? [cc] : undefined,
         reply_to: email,
