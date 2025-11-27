@@ -398,7 +398,7 @@ Tamaño:  ${(file.size / 1024 / 1024).toFixed(2)} MB
         from: "BLANK · Careers <onboarding@resend.dev>", // cámbialo por tu dominio verificado cuando lo tengas
         to: [to],
         cc: cc ? [cc] : undefined,
-        replyTo: email,
+        reply_to: email,
         subject,
         text: textBody,
         html: htmlBody,

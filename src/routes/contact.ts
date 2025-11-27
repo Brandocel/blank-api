@@ -340,7 +340,7 @@ Origen: Formulario de contacto (www.blank.com.mx)
         from: "BLANK · Formulario Web <onboarding@resend.dev>", // luego cámbialo por tu dominio verificado
         to: [to],
         cc: cc ? [cc] : undefined,
-        replyTo: email, // así puedes responder directo al cliente
+        reply_to: email, // así puedes responder directo al cliente
         subject,
         text: textBody,
         html: htmlBody,
